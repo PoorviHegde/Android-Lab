@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:layout_editor_absoluteX="8dp"
+    tools:layout_editor_absoluteY="8dp">
+
+    <CheckBox
+        android:id="@+id/milk"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="38dp"
+        android:text="Milk" />
+
+    <CheckBox
+        android:id="@+id/egg"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/milk"
+        android:layout_marginTop="17dp"
+        android:text="Egg" />
+
+    <CheckBox
+        android:id="@+id/chocolate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/egg"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:text="Chocolate" />
+
+    <CheckBox
+        android:id="@+id/biscuit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/chocolate"
+        android:layout_marginTop="17dp"
+        android:text="Bscuit" />
+
+    <CheckBox
+        android:id="@+id/wheat"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_centerVertical="true"
+        android:text="Wheat" />
+
+    <CheckBox
+        android:id="@+id/rice"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/wheat"
+        android:layout_marginTop="21dp"
+        android:text="Rice" />
+
+    <CheckBox
+        android:id="@+id/fruit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/rice"
+        android:layout_marginTop="23dp"
+        android:text="Fruit" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="37dp"
+        android:text="Submit" />
+</RelativeLayout>
+

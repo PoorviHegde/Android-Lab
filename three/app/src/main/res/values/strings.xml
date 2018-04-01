@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Three</string>
+    <string-array name="from">
+        <item>Bangalore</item>
+        <item>Manipal</item>
+        <item>Delhi</item>
+        <item>Mumbai</item>
+    </string-array>
+
+</resources>
